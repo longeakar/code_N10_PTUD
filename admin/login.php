@@ -10,7 +10,7 @@
         $user = $_POST['user'];
         $pass = $_POST['pass'];
         $role = checkuser1($user,$pass);
-        $_SESSION['VaiTro']=$role;
+        $_SESSION['LoaiNhanVien']=$role;
         $_SESSION['SoDienThoai'] = $user;
 
         if(empty($pass) || empty($user)){

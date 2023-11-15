@@ -1,7 +1,7 @@
 <?php
 session_start();
 ob_start();
-if (!isset($_SESSION['VaiTro']) || empty($_SESSION['VaiTro'])) {
+if (!isset($_SESSION['LoaiNhanVien']) || empty($_SESSION['LoaiNhanVien'])) {
     header('location: ../login.php');
     exit();
 }
